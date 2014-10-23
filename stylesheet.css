@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: 40px;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, .page-wrap:after {
+	height: 40px;
+}
+
+/* Top navbar area */
+header {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+header li {
+	display: inline;
+	margin: 0 5px 0 5px;
+}
+
+header li i {
+	color: grey;
+}
+
+header li i:hover {
+	color: black;
+}
+
+ul li img {
+	border-radius: 25px;
+	height: 40px;
+	margin: -10px -2px;
+	width: 40px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+#share { 
+	background-color: #f6f6f6;
+	padding: 8px 12px;
+}
+
+#share:hover {
+	background-color: #e8e8e8;
+	border-radius: 5px;
+}
+
+
+/* Logo and center area */
+.center {
+	height: 231px;
+	margin-top: 50/px;
+}
+
+.logo {
+	bottom: -100px;
+	margin: 0 auto;
+	position: relative;
+	width: 269px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.searchform {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.searchbox {
+	border: 1px solid lightgray;
+	margin-bottom: 15px;
+}
+
+.searchbox:focus {
+	border: 1px solid blue;
+}
+
+input[type=text] {
+	border: none;
+	font-size: 15px;
+	height: 20px;
+	margin: 5px 0;
+	outline: none;
+	width: 380px;
+}
+
+form div span {
+	color: #a8a8a8;
+	font-size: 18px;
+	margin-right: 10px;
+
+	-webkit-user-select:none;
+       -moz-user-select:none;
+    	-ms-user-select:none;
+    		user-select:none;
+}
+
+form i {
+	color: grey;
+}
+
+form i:hover {
+	color: #000000;
+}
+
+.buttons {
+	width: 250px;
+	margin: 0 auto;
+}
+
+.buttons input {
+	background: #ededed;
+	border: 1px solid #dedede;
+	font-weight: 600;
+	padding: 7px 10px;
+	text-decoration: none;
+}
+
+.buttons input:first-child {
+	margin-right: 15px;
+}
+
+footer {
+	background: #e6e6e6;
+	bottom: 0;
+	font-size: 15px;
+	height: 55x;
+	position: absolute;
+	width: 100%;
+}
+
+footer ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+footer ul a {
+	text-decoration: none;
+}
+
+footer ul a:hover {
+	text-decoration: underline;
+}
+
+footer ul li {
+	display: inline;
+	font-size: 14px;
+	margin: 10px;
+}
+
+footer ul:first-child {
+	float: left;
+	padding-left: 15px;
+}
+
+footer ul:last-child {
+	float: right;
+}
